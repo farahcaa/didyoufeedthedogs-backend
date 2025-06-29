@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/timer")
-@CrossOrigin(origins = "http://localhost:5173") // or your frontend URL
+@CrossOrigin(origins = "https://didyoufeedthedogs.chris-farah.com")// or your frontend URL
 public class TimerController {
 
     private final TimerService timerService;
